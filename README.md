@@ -11,4 +11,3 @@ This repo contains.
 
 Dataset comes from [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://)
 
-![Go Hard](http://imgur.com/GNKH0j3)
