@@ -136,5 +136,5 @@ data_mean <- melt(data, id.var = c("activity", "subject"))
 # casting tidy data
 tiddy_data <- dcast(data_mean, activity + subject ~ variable, mean)
 
-# write out cleaned up data
-write.csv(tiddy_data, "tiddy_data.csv")
+# write out cleaned up data NOT csv :()
+write.table(tiddy_data, "tiddy_data.txt", row.name = FALSE)
